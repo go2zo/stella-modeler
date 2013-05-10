@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            id="kr.co.stella.modeler.uml.diagram.wizards.category"
+            name="Stella">
+      </category>
+      <wizard
+            category="kr.co.stella.modeler.uml.diagram.wizards.category"
+            class="kr.co.stella.modeler.uml.diagram.wizards.NewWizard1"
+            id="kr.co.stella.modeler.uml.diagram.wizards.newProject"
+            name="Stella Project">
+      </wizard>
+      <wizard
+            category="kr.co.stella.modeler.uml.diagram.wizards.category"
+            class="kr.co.stella.modeler.uml.diagram.wizards.NewWizard2"
+            id="kr.co.stella.modeler.uml.diagram.wizards.wizard2"
+            name="Stella Model">
+      </wizard>
+   </extension>
+
+</plugin>

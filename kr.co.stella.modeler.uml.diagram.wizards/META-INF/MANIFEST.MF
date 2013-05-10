@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Stella Wizards
+Bundle-SymbolicName: kr.co.stella.modeler.uml.diagram.wizards;singleton:=true
+Bundle-Version: 0.1.0.qualifier
+Bundle-Activator: kr.co.stella.modeler.uml.diagram.wizards.Activator
+Bundle-Vendor: Apexsoft.co.kr
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Explorer
+Bundle-SymbolicName: kr.co.stella.modeler.explorer
+Bundle-Version: 0.1.0.qualifier
+Bundle-Activator: kr.co.stella.modeler.explorer.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7

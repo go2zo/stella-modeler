@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.navigator.navigatorContent">
+      <navigatorContent
+            contentProvider="kr.co.stella.modeler.explorer.providers.StellaContentProvider"
+            id="kr.co.stella.modeler.explorer.modelerContent"
+            labelProvider="kr.co.stella.modeler.explorer.providers.StellaLabelProvider"
+            name="Stella Content"
+            priority="highest">
+         <triggerPoints>
+            <or>
+               <instanceof
+                     value="kr.co.stella.modeler.explorer.model.IStellaElement">
+               </instanceof>
+               <instanceof
+                     value="org.eclipse.uml2.uml.Element">
+               </instanceof>
+            </or></triggerPoints>
+         <possibleChildren>
+            <or>
+               <instanceof
+                     value="kr.co.stella.modeler.explorer.model.IStellaElement">
+               </instanceof>
+               <instanceof
+                     value="org.eclipse.uml2.uml.Element">
+               </instanceof>
+            </or>
+         </possibleChildren>
+      </navigatorContent>
+   </extension>
+   <extension
+         point="org.eclipse.ui.navigator.viewer">
+      <viewerContentBinding
+            viewerId="org.eclipse.ui.navigator.ProjectExplorer">
+         <includes>
+            <contentExtension
+                  pattern="kr.co.stella.modeler.explorer.modelerContent">
+            </contentExtension></includes>
+      </viewerContentBinding>
+   </extension>
+
+</plugin>

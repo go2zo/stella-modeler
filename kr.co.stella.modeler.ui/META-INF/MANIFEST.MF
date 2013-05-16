@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Stella Modeler UI
+Bundle-SymbolicName: kr.co.stella.modeler.ui
+Bundle-Version: 0.1.0.qualifier
+Bundle-Activator: kr.co.stella.modeler.ui.Activator
+Bundle-Vendor: Apexsoft.co.kr
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy

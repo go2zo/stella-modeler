@@ -1,4 +1,6 @@
-package kr.co.stella.modeler.explorer.model;
+package kr.co.stella.modeler.model.impl;
+
+import kr.co.stella.modeler.model.IStellaContainer;
 
 import org.eclipse.core.resources.IProject;
 import org.eclipse.swt.graphics.Image;

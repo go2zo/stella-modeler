@@ -1,13 +1,13 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Explorer
-Bundle-SymbolicName: kr.co.stella.modeler.explorer;singleton:=true
+Bundle-Name: Stella Modeler
+Bundle-SymbolicName: kr.co.stella.modeler
 Bundle-Version: 0.1.0.qualifier
-Bundle-Activator: kr.co.stella.modeler.explorer.Activator
+Bundle-Activator: kr.co.stella.modeler.Activator
+Bundle-Vendor: Apexsoft.co.kr
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
  org.eclipse.core.resources,
- org.eclipse.ui.navigator,
  org.eclipse.uml2.uml
-Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy

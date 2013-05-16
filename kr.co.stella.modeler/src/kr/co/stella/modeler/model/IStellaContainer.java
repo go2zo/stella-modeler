@@ -1,4 +1,4 @@
-package kr.co.stella.modeler.explorer.model;
+package kr.co.stella.modeler.model;
 
 import org.eclipse.core.resources.IProject;
 
